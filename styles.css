@@ -19,7 +19,9 @@ h2:first-of-type {
 table,
 tr,
 td {
+    box-sizing: border-box;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 table {
